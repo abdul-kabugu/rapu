@@ -1,7 +1,9 @@
+//@ts-nocheck
+
 import { useEffect, useRef, useState } from "react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
-import SpeedController from "./SpeedController";
+
 
 export const VideoPlayer3 = (props) => {
   const videoRef = useRef(null);
